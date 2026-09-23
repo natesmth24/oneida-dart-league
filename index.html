@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of the Oneida Dart League — standings, player stats, schedule, results and playoffs.">
+  <title>Oneida Dart League</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="dartboard-mark">ODL</div>
+      <div><h1>Oneida Dart League</h1><p>2026–27 Season</p></div>
+    </div>
+    <nav>
+      <a class="active" href="#home">Home</a><a href="#standings">Standings</a><a href="#players">Player Stats</a><a href="#schedule">Schedule</a><a href="#playoffs">Playoffs</a><a href="#rules">Rules</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div><span class="eyebrow">ONEIDA • NEW YORK</span><h2>Wednesday nights.<br><span>Every dart counts.</span></h2><p>Your home for league standings, player averages, weekly leaders, schedules and playoff results.</p></div>
+      <div class="hero-card"><span>NEXT MATCH NIGHT</span><strong>Wednesday</strong><small>League play • 15-week regular season</small></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><div><span class="eyebrow">LAST WEEK'S LEADERS</span><h2>Top 3 of the Week</h2></div><p>Updated after each Wednesday match.</p></div>
+      <div id="weekly-leaders" class="leader-grid"></div>
+    </section>
+
+    <section id="standings" class="section panel-section">
+      <div class="section-heading"><div><span class="eyebrow">TEAM RACE</span><h2>Standings</h2></div><a href="#standings">Full standings →</a></div>
+      <div class="table-wrap"><table><thead><tr><th>Rank</th><th>Team</th><th>Wins</th><th>Losses</th><th>Games Won</th></tr></thead><tbody id="standings-body"></tbody></table></div>
+    </section>
+
+    <section id="schedule" class="section">
+      <div class="section-heading"><div><span class="eyebrow">THIS WEEK</span><h2>Upcoming Matches</h2></div><a href="#schedule">15-week schedule →</a></div>
+      <div id="matchups" class="match-grid"></div>
+    </section>
+
+    <section id="players" class="section panel-section">
+      <div class="section-heading"><div><span class="eyebrow">SEASON NUMBERS</span><h2>Player Stats</h2></div><p>PPD • MPR • 501 • Cricket • achievements</p></div>
+      <p class="placeholder">Player averages will populate here from league data.</p>
+    </section>
+
+    <section id="playoffs" class="section">
+      <div class="section-heading"><div><span class="eyebrow">POSTSEASON</span><h2>Playoffs</h2></div></div>
+      <div class="info-card"><strong>6 teams qualify</strong><p>Seeds #1 and #2 receive first-round byes. Higher seed hosts. Semifinal #1 plays the lowest remaining seed. Playoff matches are first to 10 game wins, with the championship played at the banquet.</p></div>
+    </section>
+
+    <section id="rules" class="section panel-section">
+      <div class="section-heading"><div><span class="eyebrow">LEAGUE INFO</span><h2>Rules</h2></div></div>
+      <p class="placeholder">The official Oneida Dart League rules will be published here before league play begins.</p>
+    </section>
+  </main>
+
+  <footer><strong>Oneida Dart League</strong><span>Oneida, New York</span><span>© 2026 Oneida Dart League</span></footer>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
