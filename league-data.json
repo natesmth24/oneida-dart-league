@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T12:34:18.113392+00:00",
+  "updatedAt": "2026-10-09T19:58:14.335411+00:00",
   "latestWeek": 1,
   "standings": [
     {
@@ -422,7 +422,7 @@
       "win501Pct": 100.0,
       "cricketWinPct": 100.0,
       "ppd": 22.77,
-      "mpr": 2.38,
+      "mpr": 1.0,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -554,7 +554,7 @@
       "ppd": 29.47,
       "mpr": 4.24,
       "highTons": 0,
-      "hatTricks": 1,
+      "hatTricks": 0,
       "whiteHorses": 0
     },
     {
@@ -791,12 +791,6 @@
         "place": 2,
         "name": "Chris",
         "team": "Hi-Way Bowl 2",
-        "score": 1
-      },
-      {
-        "place": 2,
-        "name": "Gill",
-        "team": "Elks",
         "score": 1
       }
     ],
