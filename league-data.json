@@ -1,0 +1,806 @@
+{
+  "updatedAt": "2026-10-09T12:34:18.113392+00:00",
+  "latestWeek": 1,
+  "standings": [
+    {
+      "team": "Elks",
+      "gameWins": 16,
+      "gameLosses": 3,
+      "matchWins": 1,
+      "matchLosses": 0,
+      "seed": 1
+    },
+    {
+      "team": "Pop-A-Top",
+      "gameWins": 14,
+      "gameLosses": 5,
+      "matchWins": 1,
+      "matchLosses": 0,
+      "seed": 2
+    },
+    {
+      "team": "Hi-Way Bowl 1",
+      "gameWins": 13,
+      "gameLosses": 6,
+      "matchWins": 1,
+      "matchLosses": 0,
+      "seed": 3
+    },
+    {
+      "team": "Hi-Way Bowl 2",
+      "gameWins": 6,
+      "gameLosses": 13,
+      "matchWins": 0,
+      "matchLosses": 1,
+      "seed": 4
+    },
+    {
+      "team": "Uncle J's",
+      "gameWins": 5,
+      "gameLosses": 14,
+      "matchWins": 0,
+      "matchLosses": 1,
+      "seed": 5
+    },
+    {
+      "team": "Hotey",
+      "gameWins": 3,
+      "gameLosses": 16,
+      "matchWins": 0,
+      "matchLosses": 1,
+      "seed": 6
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "home": "Pop-A-Top",
+      "away": "Uncle J's",
+      "homeWins": 14,
+      "awayWins": 5,
+      "complete": true
+    },
+    {
+      "week": 1,
+      "home": "Hotey",
+      "away": "Elks",
+      "homeWins": 3,
+      "awayWins": 16,
+      "complete": true
+    },
+    {
+      "week": 1,
+      "home": "Hi-Way Bowl 2",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 6,
+      "awayWins": 13,
+      "complete": true
+    },
+    {
+      "week": 2,
+      "home": "Uncle J's",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 2,
+      "home": "Elks",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 2,
+      "home": "Hi-Way Bowl 1",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 3,
+      "home": "Pop-A-Top",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 3,
+      "home": "Hotey",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 3,
+      "home": "Hi-Way Bowl 2",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 4,
+      "home": "Elks",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 4,
+      "home": "Uncle J's",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 4,
+      "home": "Hotey",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 5,
+      "home": "Pop-A-Top",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 5,
+      "home": "Hi-Way Bowl 1",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 5,
+      "home": "Hi-Way Bowl 2",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 6,
+      "home": "Elks",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 6,
+      "home": "Hotey",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 6,
+      "home": "Uncle J's",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 7,
+      "home": "Pop-A-Top",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 7,
+      "home": "Hi-Way Bowl 1",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 7,
+      "home": "Hi-Way Bowl 2",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 8,
+      "home": "Hotey",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 8,
+      "home": "Elks",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 8,
+      "home": "Uncle J's",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 9,
+      "home": "Pop-A-Top",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 9,
+      "home": "Hi-Way Bowl 2",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 9,
+      "home": "Hi-Way Bowl 1",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 10,
+      "home": "Pop-A-Top",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 10,
+      "home": "Elks",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 10,
+      "home": "Hotey",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 11,
+      "home": "Hi-Way Bowl 1",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 11,
+      "home": "Hi-Way Bowl 2",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 11,
+      "home": "Uncle J's",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 12,
+      "home": "Pop-A-Top",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 12,
+      "home": "Elks",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 12,
+      "home": "Hotey",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 13,
+      "home": "Hi-Way Bowl 2",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 13,
+      "home": "Uncle J's",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 13,
+      "home": "Hi-Way Bowl 1",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 14,
+      "home": "Pop-A-Top",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 14,
+      "home": "Elks",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 14,
+      "home": "Hotey",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 15,
+      "home": "Hi-Way Bowl 2",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 15,
+      "home": "Uncle J's",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 15,
+      "home": "Hi-Way Bowl 1",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    }
+  ],
+  "players": [
+    {
+      "name": "Nate",
+      "type": "Roster",
+      "rosterTeam": "Pop-A-Top",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 22.77,
+      "mpr": 2.38,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Dean",
+      "type": "Roster",
+      "rosterTeam": "Pop-A-Top",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 13.18,
+      "mpr": 1.81,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Justin",
+      "type": "Roster",
+      "rosterTeam": "Pop-A-Top",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 0.0,
+      "ppd": 8.79,
+      "mpr": 2.21,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Todd",
+      "type": "Roster",
+      "rosterTeam": "Pop-A-Top",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 19.27,
+      "mpr": 2.16,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Nick",
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 2",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 100.0,
+      "ppd": 16.63,
+      "mpr": 1.62,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Mike",
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 2",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 15.59,
+      "mpr": 1.2,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Judy",
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 1",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 100.0,
+      "ppd": 18.71,
+      "mpr": 2.06,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Brian",
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 1",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 0.0,
+      "ppd": 16.16,
+      "mpr": 1.19,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Bill",
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 1",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 19.27,
+      "mpr": 1.83,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Sam",
+      "type": "Roster",
+      "rosterTeam": "Elks",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 19.27,
+      "mpr": 2.88,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Gill",
+      "type": "Roster",
+      "rosterTeam": "Elks",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 29.47,
+      "mpr": 4.24,
+      "highTons": 0,
+      "hatTricks": 1,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Buzzy",
+      "type": "Roster",
+      "rosterTeam": "Hotey",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 16.38,
+      "mpr": 2.0,
+      "highTons": 0,
+      "hatTricks": 1,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Aiden",
+      "type": "Roster",
+      "rosterTeam": "Elks",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 100.0,
+      "ppd": 15.96,
+      "mpr": 2.15,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Guy",
+      "type": "Roster",
+      "rosterTeam": "Elks",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 0.0,
+      "ppd": 21.78,
+      "mpr": 2.0,
+      "highTons": 0,
+      "hatTricks": 2,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Bryan",
+      "type": "Roster",
+      "rosterTeam": "Hotey",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 17.89,
+      "mpr": 2.13,
+      "highTons": 0,
+      "hatTricks": 1,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Tim",
+      "type": "Roster",
+      "rosterTeam": "Hotey",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 19.33,
+      "mpr": 1.25,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Ollie",
+      "type": "Roster",
+      "rosterTeam": "Hotey",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 14.39,
+      "mpr": 1.85,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Jim",
+      "type": "Sub",
+      "rosterTeam": "Multiple / Sub",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 0.0,
+      "ppd": 17.89,
+      "mpr": 1.2,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Chris",
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 2",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 100.0,
+      "ppd": 20.88,
+      "mpr": 1.85,
+      "highTons": 0,
+      "hatTricks": 1,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Mary",
+      "type": "Sub",
+      "rosterTeam": "Multiple / Sub",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 15.08,
+      "mpr": 1.13,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Patty",
+      "type": "Roster",
+      "rosterTeam": "Uncle J's",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 13.29,
+      "mpr": 1.24,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Darren",
+      "type": "Roster",
+      "rosterTeam": "Uncle J's",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 13.69,
+      "mpr": 1.61,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Jeff",
+      "type": "Sub",
+      "rosterTeam": "Multiple / Sub",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 100.0,
+      "ppd": 16.88,
+      "mpr": 2.43,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    },
+    {
+      "name": "Denise",
+      "type": "Sub",
+      "rosterTeam": "Multiple / Sub",
+      "matches": 1,
+      "win501Pct": 0.0,
+      "cricketWinPct": 0.0,
+      "ppd": 8.91,
+      "mpr": 1.02,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
+    }
+  ],
+  "weeklyLeaders": {
+    "PPD": [
+      {
+        "place": 1,
+        "name": "Gill",
+        "team": "Elks",
+        "score": 29.47
+      },
+      {
+        "place": 2,
+        "name": "Nate",
+        "team": "Pop-A-Top",
+        "score": 22.77
+      },
+      {
+        "place": 3,
+        "name": "Guy",
+        "team": "Elks",
+        "score": 21.78
+      }
+    ],
+    "MPR": [
+      {
+        "place": 1,
+        "name": "Gill",
+        "team": "Elks",
+        "score": 4.24
+      },
+      {
+        "place": 2,
+        "name": "Sam",
+        "team": "Elks",
+        "score": 2.88
+      },
+      {
+        "place": 3,
+        "name": "Jeff",
+        "team": "Uncle J's",
+        "score": 2.43
+      }
+    ],
+    "Hat Tricks": [
+      {
+        "place": 1,
+        "name": "Guy",
+        "team": "Elks",
+        "score": 2
+      },
+      {
+        "place": 2,
+        "name": "Bryan",
+        "team": "Hotey",
+        "score": 1
+      },
+      {
+        "place": 2,
+        "name": "Buzzy",
+        "team": "Hotey",
+        "score": 1
+      },
+      {
+        "place": 2,
+        "name": "Chris",
+        "team": "Hi-Way Bowl 2",
+        "score": 1
+      },
+      {
+        "place": 2,
+        "name": "Gill",
+        "team": "Elks",
+        "score": 1
+      }
+    ],
+    "High Tons": [],
+    "White Horses": []
+  }
+}
