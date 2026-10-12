@@ -1,132 +1,153 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Official website of the Oneida Dart League — standings, player stats, schedule, results and playoffs.">
-  <title>Oneida Dart League</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Official website of the Oneida Dart League — standings, player stats, schedule, results and playoffs." name="description"/>
+<title>Oneida Dart League</title>
+<link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">
-      <div class="dartboard-mark">ODL</div>
-      <div><h1>Oneida Dart League</h1><p>2026–27 Season</p></div>
-    </div>
-    <nav>
-      <a class="active" href="#home">Home</a><a href="#standings">Standings</a><a href="#players">Player Stats</a><a href="#schedule">Schedule</a><a href="#playoffs">Playoffs</a><a href="#rules">Rules</a>
-    </nav>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div><span class="eyebrow">ONEIDA • NEW YORK</span><h2>Wednesday nights.<br><span>Every dart counts.</span></h2><p>Your home for league standings, player averages, weekly leaders, schedules and playoff results.</p></div>
-      <div class="hero-card"><span>NEXT MATCH NIGHT</span><strong>Wednesday</strong><small>League play • 15-week regular season</small></div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading"><div><span class="eyebrow">LAST WEEK'S LEADERS</span><h2>Top 3 of the Week</h2></div><p>Updated after each Wednesday match.</p></div>
-      <div id="weekly-leaders" class="leader-grid"></div>
-    </section>
-
-    <section id="standings" class="section panel-section">
-      <div class="section-heading"><div><span class="eyebrow">TEAM RACE</span><h2>Standings</h2></div><a href="#standings">Full standings →</a></div>
-      <div class="table-wrap"><table><thead><tr><th>Rank</th><th>Team</th><th>Game Wins</th><th>Game Losses</th><th>Match Wins</th></tr></thead><tbody id="standings-body"></tbody></table></div>
-    </section>
-
-    <section id="schedule" class="section">
-      <div class="section-heading"><div><span class="eyebrow">THIS WEEK</span><h2>Upcoming Matches</h2></div><a href="#schedule">15-week schedule →</a></div>
-      <div id="matchups" class="match-grid"></div>
-    </section>
-
-    <section id="players" class="section panel-section">
-      <div class="section-heading"><div><span class="eyebrow">SEASON NUMBERS</span><h2>Player Stats</h2></div><p>PPD • MPR • 501 • Cricket • achievements</p></div>
-      <div class="table-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th>Player</th>
-        <th>Team</th>
-        <th>Matches</th>
-        <th>501 Win %</th>
-        <th>Cricket Win %</th>
-        <th>PPD</th>
-        <th>MPR</th>
-      </tr>
-    </thead>
-    <tbody id="players-body"></tbody>
-  </table>
+<header class="site-header">
+<div class="brand">
+<div class="dartboard-mark">ODL</div>
+<div><h1>Oneida Dart League</h1><p>2026–27 Season</p></div>
 </div>
-    </section>
+<nav>
+<a class="active" href="#home">Home</a><a href="#standings">Standings</a><a href="#players">Player Stats</a><a href="schedule.html">Schedule</a><a href="#playoffs">Playoffs</a><a href="#rules">Rules</a>
+</nav>
+</header>
+<main id="home">
+<section class="hero">
+<div><span class="eyebrow">ONEIDA • NEW YORK</span><h2>Wednesday nights.<br/><span>Every dart counts.</span></h2><p>Your home for league standings, player averages, weekly leaders, schedules and playoff results.</p></div>
+<div class="hero-card"><span>NEXT MATCH NIGHT</span><strong id="next-match-date">Wednesday</strong><small>League play • 15-week regular season</small></div>
+</section><section class="section" id="schedule">
+<div class="section-heading"><div><span class="eyebrow">THIS WEEK</span><h2>Upcoming Matches</h2></div><a href="schedule.html">15-week schedule →</a></div>
+<div class="match-grid" id="matchups"></div>
+</section><section class="section">
+<div class="section-heading"><div><span class="eyebrow">LAST WEEK'S LEADERS</span><h2>Top 3 of the Week</h2></div><p>Updated after each Wednesday match.</p></div>
+<div class="leader-grid" id="weekly-leaders"></div>
+</section><section class="section panel-section" id="standings">
+<div class="section-heading"><div><span class="eyebrow">TEAM RACE</span><h2>Standings</h2></div></div>
+<div class="table-wrap"><table><thead><tr><th>Rank</th><th>Team</th><th>Game Wins</th><th>Game Losses</th><th>Match Wins</th></tr></thead><tbody id="standings-body"></tbody></table></div>
+</section>
 
-    <section id="playoffs" class="section">
-      <div class="section-heading"><div><span class="eyebrow">POSTSEASON</span><h2>Playoffs</h2></div></div>
-      <div class="info-card"><strong>6 teams qualify</strong><p>Seeds #1 and #2 receive first-round byes. Higher seed hosts. Semifinal #1 plays the lowest remaining seed. Playoff matches are first to 10 game wins, with the championship played at the banquet.</p></div>
-    </section>
 
-    <section id="rules" class="section panel-section">
-      <div class="section-heading"><div><span class="eyebrow">LEAGUE INFO</span><h2>Rules</h2></div></div>
-      
+
+
+<section class="section panel-section" id="players">
+<div class="section-heading"><div><span class="eyebrow">SEASON NUMBERS</span><h2>Player Stats</h2></div><p>PPD • MPR • 501 • Cricket • achievements</p></div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Player</th>
+<th>Team</th>
+<th>Matches</th>
+<th>501 Win %</th>
+<th>Cricket Win %</th>
+<th>PPD</th>
+<th>MPR</th>
+<th>Hat Tricks</th>
+<th>High Tons</th>
+<th>White Horses</th>
+</tr>
+</thead>
+<tbody id="players-body"></tbody>
+</table>
+</div>
+</section>
+<section class="section" id="playoffs">
+<div class="section-heading"><div><span class="eyebrow">POSTSEASON</span><h2>Playoffs</h2></div></div>
+<div class="info-card"><strong>6 teams qualify</strong><p>Seeds #1 and #2 receive first-round byes. Higher seed hosts. Semifinal #1 plays the lowest remaining seed. Playoff matches are first to 10 game wins, with the championship played at the banquet.</p></div>
+</section>
+<section class="section panel-section" id="rules">
+<div class="section-heading"><div><span class="eyebrow">LEAGUE INFO</span><h2>Rules</h2></div></div>
 <div class="info-card">
-  <h3>Regular Season</h3>
-  <ul>
-    <li>The regular season consists of 15 weeks of play.</li>
-    <li>Matches are played on Wednesday nights.</li>
-    <li>Each team must have four players to play a match.</li>
-    <li>Teams receive $2 for each individual game won during the regular season.</li>
-    <li>Weekly player statistics and team standings will be posted on this website.</li>
-  </ul>
-
-  <h3>Rosters and Substitutes</h3>
-  <ul>
-    <li>A maximum of two substitutes are permitted per team per regular-season match.</li>
-    <li>A player rostered on one team cannot substitute for another team.</li>
-    <li>Unrostered substitutes may play for multiple teams during the regular season.</li>
-    <li>Roster changes must be reported to the league organizer.</li>
-  </ul>
-
-  <h3>Make-Up Matches</h3>
-  <ul>
-    <li>Postponed matches must be completed within two weeks of the original scheduled date.</li>
-    <li>All make-up matches must be completed before the final regular-season match.</li>
-    <li>Both teams must notify the league organizer of any rescheduled match.</li>
-    <li>If captains cannot agree on a make-up date, contact the league organizer.</li>
-  </ul>
-
-  <h3>Standings and Tiebreakers</h3>
-  <ul>
-    <li>Teams are ranked according to the league standings.</li>
-    <li>If two teams are tied, their head-to-head record determines the higher seed.</li>
-    <li>Three-way ties will be reviewed by the league organizer.</li>
-  </ul>
-
-  <h3>Playoffs</h3>
-  <ul>
-    <li>All six teams qualify for the playoffs.</li>
-    <li>The top two seeds receive first-round byes.</li>
-    <li>First-round matchups are seed #3 vs. #4 and seed #5 vs. #6.</li>
-    <li>Seed #1 plays the lowest remaining seed in the semifinals.</li>
-    <li>The higher-seeded team hosts each playoff match.</li>
-    <li>Playoff matches are played until one team wins 10 games.</li>
-    <li>The championship match is played at the end-of-season banquet.</li>
-  </ul>
-
-  <h3>Playoff Substitute Eligibility</h3>
-  <ul>
-    <li>Substitutes must have played at least five regular-season matches to be playoff eligible.</li>
-    <li>A maximum of one substitute is permitted per team during a playoff match.</li>
-  </ul>
-
-  <h3>Player Order</h3>
-  <ul>
-    <li>The higher-seeded team determines player order during playoff matches.</li>
-  </ul>
+<h3>Regular Season</h3>
+<ul>
+<li>The regular season consists of 15 weeks of play.</li>
+<li>Matches are played on Wednesday nights.</li>
+<li>Each team must have four players to play a match.</li>
+<li>Teams receive $2 for each individual game won during the regular season.</li>
+<li>Weekly player statistics and team standings will be posted on this website.</li>
+</ul>
+<h3>Rosters and Substitutes</h3>
+<ul>
+<li>A maximum of two substitutes are permitted per team per regular-season match.</li>
+<li>A player rostered on one team cannot substitute for another team.</li>
+<li>Unrostered substitutes may play for multiple teams during the regular season.</li>
+<li>Roster changes must be reported to the league organizer.</li>
+</ul>
+<h3>Make-Up Matches</h3>
+<ul>
+<li>Postponed matches must be completed within two weeks of the original scheduled date.</li>
+<li>All make-up matches must be completed before the final regular-season match.</li>
+<li>Both teams must notify the league organizer of any rescheduled match.</li>
+<li>If captains cannot agree on a make-up date, contact the league organizer.</li>
+</ul>
+<h3>Standings and Tiebreakers</h3>
+<ul>
+<li>Teams are ranked according to the league standings.</li>
+<li>If two teams are tied, their head-to-head record determines the higher seed.</li>
+<li>Three-way ties will be reviewed by the league organizer.</li>
+</ul>
+<h3>Playoffs</h3>
+<ul>
+<li>All six teams qualify for the playoffs.</li>
+<li>The top two seeds receive first-round byes.</li>
+<li>First-round matchups are seed #3 vs. #4 and seed #5 vs. #6.</li>
+<li>Seed #1 plays the lowest remaining seed in the semifinals.</li>
+<li>The higher-seeded team hosts each playoff match.</li>
+<li>Playoff matches are played until one team wins 10 games.</li>
+<li>The championship match is played at the end-of-season banquet.</li>
+</ul>
+<h3>Playoff Substitute Eligibility</h3>
+<ul>
+<li>Substitutes must have played at least five regular-season matches to be playoff eligible.</li>
+<li>A maximum of one substitute is permitted per team during a playoff match.</li>
+</ul>
+<h3>Player Order</h3>
+<ul>
+<li>The higher-seeded team determines player order during playoff matches.</li>
+</ul>
 </div>
+</section>
+</main>
+<footer><strong>Oneida Dart League</strong><span>Oneida, New York</span><span>© 2026 Oneida Dart League</span></footer>
+<script src="data.js"></script><script src="app.js"></script>
+<script>
+(function () {
+    function updateNextMatch() {
+        const now = new Date();
 
-    </section>
-  </main>
+        // Find the next Wednesday.
+        let daysUntil = (3 - now.getDay() + 7) % 7;
 
-  <footer><strong>Oneida Dart League</strong><span>Oneida, New York</span><span>© 2026 Oneida Dart League</span></footer>
-  <script src="data.js"></script><script src="app.js"></script>
+        // After 7 PM Wednesday, show the following Wednesday.
+        if (daysUntil === 0 && now.getHours() >= 19) {
+            daysUntil = 7;
+        }
+
+        const matchDate = new Date(now);
+        matchDate.setDate(now.getDate() + daysUntil);
+
+        const formattedDate = matchDate.toLocaleDateString("en-US", {
+            weekday: "long",
+            month: "long",
+            day: "numeric"
+        });
+
+        const display = document.getElementById("next-match-date");
+
+        if (display) {
+            display.textContent = formattedDate + " • 7:00 PM";
+        }
+    }
+
+    updateNextMatch();
+})();
+</script>
 </body>
 </html>

@@ -90,14 +90,104 @@ function renderLeague(data) {
   }
 }
 
+
+let playerStatsData = [];
+let playerSortColumn = "ppd";
+let playerSortAscending = false;
+
+const playerColumns = [
+  { key: "name", label: "Player", type: "text" },
+  { key: "team", label: "Team", type: "text" },
+  { key: "matches", label: "Matches", type: "number" },
+  { key: "win501Pct", label: "501 Win %", type: "number" },
+  { key: "cricketWinPct", label: "Cricket Win %", type: "number" },
+  { key: "ppd", label: "PPD", type: "number" },
+  { key: "mpr", label: "MPR", type: "number" },
+  { key: "hatTricks", label: "Hat Tricks", type: "number" },
+  { key: "highTons", label: "High Tons", type: "number" },
+  { key: "whiteHorses", label: "White Horses", type: "number" }
+];
+
 function renderPlayerStats(data) {
+  const body = document.getElementById("players-body");
+  if (!body) return;
+
+  playerStatsData = data.players || [];
+
+  const table = body.closest("table");
+  const headers = table.querySelectorAll("thead th");
+
+  headers.forEach((header, index) => {
+    const column = playerColumns[index];
+    if (!column) return;
+
+    header.style.cursor = "pointer";
+    header.style.userSelect = "none";
+    header.title = "Click to sort by " + column.label;
+    header.setAttribute("tabindex", "0");
+    header.setAttribute("role", "button");
+
+    const selectColumn = () => {
+      if (playerSortColumn === column.key) {
+        playerSortAscending = !playerSortAscending;
+      } else {
+        playerSortColumn = column.key;
+        playerSortAscending = column.type === "text";
+      }
+      displaySortedPlayers();
+    };
+
+    header.onclick = selectColumn;
+    header.onkeydown = event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        selectColumn();
+      }
+    };
+  });
+
+  displaySortedPlayers();
+}
+
+function displaySortedPlayers() {
   const body = document.getElementById("players-body");
   if (!body) return;
 
   body.innerHTML = "";
 
-  const players = [...(data.players || [])]
-    .sort((a, b) => (b.ppd || 0) - (a.ppd || 0));
+  const selectedColumn = playerColumns.find(
+    column => column.key === playerSortColumn
+  );
+
+  const players = [...playerStatsData].sort((a, b) => {
+    const getValue = player => {
+      if (playerSortColumn === "team") {
+        return player.rosterTeam || player.team || "Sub";
+      }
+      return player[playerSortColumn] ?? (
+        selectedColumn.type === "number" ? 0 : ""
+      );
+    };
+
+    const valueA = getValue(a);
+    const valueB = getValue(b);
+
+    let comparison;
+
+    if (selectedColumn.type === "number") {
+      comparison = Number(valueA) - Number(valueB);
+    } else {
+      comparison = String(valueA).localeCompare(String(valueB));
+    }
+
+    if (comparison === 0) {
+      comparison = String(a.name || "").localeCompare(
+        String(b.name || "")
+      );
+    }
+
+    return playerSortAscending ? comparison : -comparison;
+  });
 
   players.forEach(player => {
     const row = document.createElement("tr");
@@ -109,7 +199,10 @@ function renderPlayerStats(data) {
       `${Number(player.win501Pct || 0).toFixed(2)}%`,
       `${Number(player.cricketWinPct || 0).toFixed(2)}%`,
       Number(player.ppd || 0).toFixed(2),
-      Number(player.mpr || 0).toFixed(2)
+      Number(player.mpr || 0).toFixed(2),
+      player.hatTricks ?? 0,
+      player.highTons ?? 0,
+      player.whiteHorses ?? 0
     ];
 
     values.forEach(value => {
@@ -120,10 +213,30 @@ function renderPlayerStats(data) {
 
     body.appendChild(row);
   });
+
+  const headers = body.closest("table").querySelectorAll("thead th");
+
+  headers.forEach((header, index) => {
+    const column = playerColumns[index];
+    if (!column) return;
+
+    header.textContent = column.label;
+
+    if (column.key === playerSortColumn) {
+      header.textContent += playerSortAscending ? " ▲" : " ▼";
+      header.setAttribute(
+        "aria-sort",
+        playerSortAscending ? "ascending" : "descending"
+      );
+    } else {
+      header.removeAttribute("aria-sort");
+    }
+  });
 }
 
 renderLeague(fallback);
 renderPlayerStats(fallback);
+
 
 fetch("./league-data.json", { cache: "no-store" })
   .then(response => {
@@ -131,8 +244,9 @@ fetch("./league-data.json", { cache: "no-store" })
     return response.json();
   })
 .then(data => {
-  renderLeague(data);
-  renderPlayerStats(data);
+    renderLeague(data);
+    renderPlayerStats(data);
+
 })
   .catch(() => {
     console.info("Using website placeholder data.");

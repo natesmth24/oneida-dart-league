@@ -1,0 +1,14 @@
+/* Schedule-specific layout; inherits the existing site styles. */
+#schedule-page { padding-bottom: 3rem; }
+.schedule-intro { margin-bottom: 1.5rem; }
+.schedule-week { margin-bottom: 1.5rem; }
+.schedule-week .section-heading { margin-bottom: 1rem; }
+.schedule-week .match-grid { margin-top: 1rem; }
+.schedule-week .match-card { display: flex; flex-direction: column; gap: .4rem; min-width: 0; }
+.schedule-team { display: flex; align-items: center; justify-content: space-between; gap: .75rem; width: 100%; }
+.schedule-team strong { overflow-wrap: anywhere; }
+.schedule-score { font-size: 1.25rem; font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.schedule-team.winner .schedule-score { color: #b57b0c; }
+.schedule-week-status { color: #64748b; font-size: .85rem; }
+.schedule-empty { padding: 1rem; }
+@media (max-width: 720px) { .schedule-week .match-grid { grid-template-columns: 1fr; } }
