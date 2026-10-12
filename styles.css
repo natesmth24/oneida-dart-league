@@ -54,3 +54,21 @@
     background: var(--deep);
   }
 }
+
+/* Mobile Player Stats: frozen headers with two-way scrolling */
+@media (max-width: 900px) {
+    #players .table-wrap {
+        max-height: 65dvh;
+        overflow-x: auto;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #players table thead th {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background: var(--deep);
+    }
+}
