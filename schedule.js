@@ -1,5 +1,12 @@
 "use strict";
 const container = document.getElementById("full-schedule-list");
+
+const weekDates = [
+  "10/7", "10/14", "10/21", "10/28",
+  "11/4", "11/11", "11/18",
+  "12/2", "12/9", "12/16", "12/30",
+  "1/6", "1/13", "1/20", "1/27"
+];
 function make(tag, className, value) {
   const element = document.createElement(tag);
   if (className) element.className = className;
@@ -19,7 +26,7 @@ function renderSchedule(data) {
     const games = matches.filter(m => Number(m.week) === week);
     const section = make("section", "section panel-section schedule-week");
     const heading = make("div", "section-heading");
-    const title = make("h2", "", `Week ${week}`);
+    const title = make("h2", "", `Week ${week} - ${weekDates[week - 1]}`);
     heading.appendChild(title);
     const complete = games.length > 0 && games.every(m => m.complete === true);
     heading.appendChild(make("span", "schedule-week-status", complete ? "Completed" : ""));

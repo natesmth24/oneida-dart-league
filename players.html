@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Oneida Dart League player statistics, averages and achievements."/>
+<title>Player Stats | Oneida Dart League</title>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<div class="brand"><div class="dartboard-mark">ODL</div><div><h1>Oneida Dart League</h1><p>2026–27 Season</p></div></div>
+<nav><a href="index.html">Home</a><a href="index.html#standings">Standings</a><a class="active" href="players.html" aria-current="page">Player Stats</a><a href="schedule.html">Schedule</a><a href="index.html#playoffs">Playoffs</a><a href="index.html#rules">Rules</a></nav>
+</header>
+<main id="players-page">
+<section class="section panel-section" id="players">
+<div class="section-heading"><div><span class="eyebrow">SEASON NUMBERS</span><h2>Player Stats</h2></div><a href="index.html">← Back to homepage</a></div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Player</th>
+<th>Team</th>
+<th>Matches</th>
+<th>501 Win %</th>
+<th>Cricket Win %</th>
+<th>PPD</th>
+<th>MPR</th>
+<th>Hat Tricks</th>
+<th>High Tons</th>
+<th>White Horses</th>
+</tr>
+</thead>
+<tbody id="players-body"></tbody>
+</table>
+</div>
+</section>
+<p style="margin:12px 28px 24px;color:var(--muted);font-size:13px">Click a column heading to sort. Scroll inside the table to see more players; on smaller screens, swipe sideways for additional columns.</p>
+</main>
+<footer><strong>Oneida Dart League</strong><span>Oneida, New York</span><span>© 2026 Oneida Dart League</span></footer>
+<script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
