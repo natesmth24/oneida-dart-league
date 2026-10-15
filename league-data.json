@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T03:02:47.993400+00:00",
+  "updatedAt": "2026-10-15T19:37:32.169379+00:00",
   "latestWeek": 2,
   "standings": [
     {
@@ -102,7 +102,7 @@
     },
     {
       "week": 3,
-      "home": "Pop-A-Top",
+      "home": "Elks",
       "away": "Uncle J's",
       "homeWins": 0,
       "awayWins": 0,
@@ -110,38 +110,14 @@
     },
     {
       "week": 3,
-      "home": "Hotey",
-      "away": "Elks",
+      "home": "Hi-Way Bowl 1",
+      "away": "Pop-A-Top",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
     },
     {
       "week": 3,
-      "home": "Hi-Way Bowl 2",
-      "away": "Hi-Way Bowl 1",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 4,
-      "home": "Elks",
-      "away": "Pop-A-Top",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 4,
-      "home": "Uncle J's",
-      "away": "Hi-Way Bowl 1",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 4,
       "home": "Hotey",
       "away": "Hi-Way Bowl 2",
       "homeWins": 0,
@@ -149,9 +125,25 @@
       "complete": false
     },
     {
-      "week": 5,
+      "week": 4,
       "home": "Pop-A-Top",
-      "away": "Hotey",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 4,
+      "home": "Hi-Way Bowl 2",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 4,
+      "home": "Hotey",
+      "away": "Hi-Way Bowl 1",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
@@ -167,7 +159,15 @@
     {
       "week": 5,
       "home": "Hi-Way Bowl 2",
-      "away": "Uncle J's",
+      "away": "Pop-A-Top",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 5,
+      "home": "Uncle J's",
+      "away": "Hotey",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
@@ -182,14 +182,6 @@
     },
     {
       "week": 6,
-      "home": "Hotey",
-      "away": "Hi-Way Bowl 1",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 6,
       "home": "Uncle J's",
       "away": "Hi-Way Bowl 2",
       "homeWins": 0,
@@ -197,9 +189,17 @@
       "complete": false
     },
     {
+      "week": 6,
+      "home": "Hotey",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
       "week": 7,
       "home": "Pop-A-Top",
-      "away": "Elks",
+      "away": "Hotey",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
@@ -215,13 +215,53 @@
     {
       "week": 7,
       "home": "Hi-Way Bowl 2",
-      "away": "Hotey",
+      "away": "Elks",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
     },
     {
       "week": 8,
+      "home": "Pop-A-Top",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 8,
+      "home": "Elks",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 8,
+      "home": "Hotey",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 9,
+      "home": "Elks",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 9,
+      "home": "Uncle J's",
+      "away": "Hi-Way Bowl 1",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 9,
       "home": "Hotey",
       "away": "Pop-A-Top",
       "homeWins": 0,
@@ -229,71 +269,7 @@
       "complete": false
     },
     {
-      "week": 8,
-      "home": "Elks",
-      "away": "Hi-Way Bowl 1",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 8,
-      "home": "Uncle J's",
-      "away": "Hi-Way Bowl 2",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 9,
-      "home": "Pop-A-Top",
-      "away": "Hotey",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 9,
-      "home": "Hi-Way Bowl 2",
-      "away": "Elks",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 9,
-      "home": "Hi-Way Bowl 1",
-      "away": "Uncle J's",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
       "week": 10,
-      "home": "Pop-A-Top",
-      "away": "Hi-Way Bowl 1",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 10,
-      "home": "Elks",
-      "away": "Hi-Way Bowl 2",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 10,
-      "home": "Hotey",
-      "away": "Uncle J's",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 11,
       "home": "Hi-Way Bowl 1",
       "away": "Pop-A-Top",
       "homeWins": 0,
@@ -301,8 +277,16 @@
       "complete": false
     },
     {
-      "week": 11,
+      "week": 10,
       "home": "Hi-Way Bowl 2",
+      "away": "Hotey",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 10,
+      "home": "Uncle J's",
       "away": "Elks",
       "homeWins": 0,
       "awayWins": 0,
@@ -310,8 +294,24 @@
     },
     {
       "week": 11,
-      "home": "Uncle J's",
-      "away": "Hotey",
+      "home": "Pop-A-Top",
+      "away": "Elks",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 11,
+      "home": "Hi-Way Bowl 1",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 11,
+      "home": "Hotey",
+      "away": "Uncle J's",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
@@ -327,15 +327,23 @@
     {
       "week": 12,
       "home": "Elks",
-      "away": "Uncle J's",
+      "away": "Hotey",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
     },
     {
       "week": 12,
-      "home": "Hotey",
-      "away": "Hi-Way Bowl 2",
+      "home": "Hi-Way Bowl 2",
+      "away": "Uncle J's",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 13,
+      "home": "Hi-Way Bowl 1",
+      "away": "Hotey",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
@@ -357,17 +365,9 @@
       "complete": false
     },
     {
-      "week": 13,
-      "home": "Hi-Way Bowl 1",
-      "away": "Hotey",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
       "week": 14,
       "home": "Pop-A-Top",
-      "away": "Hi-Way Bowl 2",
+      "away": "Uncle J's",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
@@ -383,7 +383,15 @@
     {
       "week": 14,
       "home": "Hotey",
-      "away": "Uncle J's",
+      "away": "Hi-Way Bowl 2",
+      "homeWins": 0,
+      "awayWins": 0,
+      "complete": false
+    },
+    {
+      "week": 15,
+      "home": "Pop-A-Top",
+      "away": "Hotey",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
@@ -391,14 +399,6 @@
     {
       "week": 15,
       "home": "Hi-Way Bowl 2",
-      "away": "Pop-A-Top",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
-    },
-    {
-      "week": 15,
-      "home": "Uncle J's",
       "away": "Elks",
       "homeWins": 0,
       "awayWins": 0,
@@ -406,8 +406,8 @@
     },
     {
       "week": 15,
-      "home": "Hi-Way Bowl 1",
-      "away": "Hotey",
+      "home": "Uncle J's",
+      "away": "Hi-Way Bowl 1",
       "homeWins": 0,
       "awayWins": 0,
       "complete": false
