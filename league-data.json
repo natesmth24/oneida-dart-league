@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T12:46:51.861335+00:00",
+  "updatedAt": "2026-10-22T12:54:16.631097+00:00",
   "latestWeek": 3,
   "standings": [
     {
@@ -753,7 +753,7 @@
       "whiteHorses": 0
     },
     {
-      "name": "Mike S",
+      "name": "Mike H",
       "type": "Sub",
       "rosterTeam": "Multiple / Sub",
       "matches": 1,
@@ -770,7 +770,7 @@
     "PPD": [
       {
         "place": 1,
-        "name": "Mike S",
+        "name": "Mike H",
         "team": "Hi-Way Bowl 1",
         "score": 28.36
       },
@@ -816,7 +816,7 @@
       },
       {
         "place": 2,
-        "name": "Mike S",
+        "name": "Mike H",
         "team": "Hi-Way Bowl 1",
         "score": 1
       }
