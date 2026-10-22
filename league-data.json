@@ -1,30 +1,14 @@
 {
-  "updatedAt": "2026-10-15T19:37:32.169379+00:00",
-  "latestWeek": 2,
+  "updatedAt": "2026-10-22T02:35:03.428845+00:00",
+  "latestWeek": 3,
   "standings": [
     {
       "team": "Elks",
-      "gameWins": 34,
+      "gameWins": 53,
       "gameLosses": 4,
-      "matchWins": 2,
+      "matchWins": 3,
       "matchLosses": 0,
       "seed": 1
-    },
-    {
-      "team": "Pop-A-Top",
-      "gameWins": 28,
-      "gameLosses": 10,
-      "matchWins": 2,
-      "matchLosses": 0,
-      "seed": 2
-    },
-    {
-      "team": "Hi-Way Bowl 1",
-      "gameWins": 23,
-      "gameLosses": 15,
-      "matchWins": 2,
-      "matchLosses": 0,
-      "seed": 3
     },
     {
       "team": "Hi-Way Bowl 2",
@@ -37,9 +21,9 @@
     {
       "team": "Uncle J's",
       "gameWins": 10,
-      "gameLosses": 28,
+      "gameLosses": 47,
       "matchWins": 0,
-      "matchLosses": 2,
+      "matchLosses": 3,
       "seed": 5
     },
     {
@@ -49,6 +33,22 @@
       "matchWins": 0,
       "matchLosses": 2,
       "seed": 6
+    },
+    {
+      "team": "Hi-Way Bowl 1",
+      "gameWins": 35,
+      "gameLosses": 22,
+      "matchWins": 3,
+      "matchLosses": 0,
+      "seed": 0
+    },
+    {
+      "team": "Pop-A-Top",
+      "gameWins": 35,
+      "gameLosses": 22,
+      "matchWins": 2,
+      "matchLosses": 1,
+      "seed": 0
     }
   ],
   "schedule": [
@@ -104,17 +104,17 @@
       "week": 3,
       "home": "Elks",
       "away": "Uncle J's",
-      "homeWins": 0,
+      "homeWins": 19,
       "awayWins": 0,
-      "complete": false
+      "complete": true
     },
     {
       "week": 3,
       "home": "Hi-Way Bowl 1",
       "away": "Pop-A-Top",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
+      "homeWins": 12,
+      "awayWins": 7,
+      "complete": true
     },
     {
       "week": 3,
@@ -418,11 +418,11 @@
       "name": "Nate",
       "type": "Roster",
       "rosterTeam": "Pop-A-Top",
-      "matches": 2,
+      "matches": 3,
       "win501Pct": 100.0,
-      "cricketWinPct": 50.0,
-      "ppd": 22.27,
-      "mpr": 2.33,
+      "cricketWinPct": 66.67,
+      "ppd": 20.42,
+      "mpr": 2.49,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -431,11 +431,11 @@
       "name": "Dean",
       "type": "Roster",
       "rosterTeam": "Pop-A-Top",
-      "matches": 2,
-      "win501Pct": 50.0,
-      "cricketWinPct": 100.0,
-      "ppd": 14.32,
-      "mpr": 1.88,
+      "matches": 3,
+      "win501Pct": 66.67,
+      "cricketWinPct": 66.67,
+      "ppd": 13.18,
+      "mpr": 1.76,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -444,11 +444,11 @@
       "name": "Justin",
       "type": "Roster",
       "rosterTeam": "Pop-A-Top",
-      "matches": 2,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 11.27,
-      "mpr": 2.1,
+      "matches": 3,
+      "win501Pct": 33.33,
+      "cricketWinPct": 33.33,
+      "ppd": 12.94,
+      "mpr": 1.82,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -457,11 +457,11 @@
       "name": "Todd",
       "type": "Roster",
       "rosterTeam": "Pop-A-Top",
-      "matches": 2,
-      "win501Pct": 100.0,
+      "matches": 3,
+      "win501Pct": 66.67,
       "cricketWinPct": 100.0,
-      "ppd": 15.75,
-      "mpr": 2.02,
+      "ppd": 15.35,
+      "mpr": 2.09,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -496,11 +496,11 @@
       "name": "Judy",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 1",
-      "matches": 2,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 17.7,
-      "mpr": 1.75,
+      "matches": 3,
+      "win501Pct": 33.33,
+      "cricketWinPct": 66.67,
+      "ppd": 15.76,
+      "mpr": 1.81,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -509,11 +509,11 @@
       "name": "Brian",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 1",
-      "matches": 2,
-      "win501Pct": 100.0,
+      "matches": 3,
+      "win501Pct": 66.67,
       "cricketWinPct": 0.0,
-      "ppd": 19.46,
-      "mpr": 1.48,
+      "ppd": 17.8,
+      "mpr": 1.35,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -535,12 +535,12 @@
       "name": "Sam",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 2,
+      "matches": 3,
       "win501Pct": 100.0,
       "cricketWinPct": 100.0,
-      "ppd": 23.55,
-      "mpr": 2.72,
-      "highTons": 0,
+      "ppd": 22.96,
+      "mpr": 2.81,
+      "highTons": 1,
       "hatTricks": 0,
       "whiteHorses": 0
     },
@@ -548,14 +548,14 @@
       "name": "Gill",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 2,
+      "matches": 3,
       "win501Pct": 100.0,
       "cricketWinPct": 100.0,
-      "ppd": 31.43,
-      "mpr": 4.05,
+      "ppd": 29.31,
+      "mpr": 4.07,
       "highTons": 0,
       "hatTricks": 1,
-      "whiteHorses": 0
+      "whiteHorses": 1
     },
     {
       "name": "Buzzy",
@@ -574,11 +574,11 @@
       "name": "Aiden",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 2,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 16.93,
-      "mpr": 1.96,
+      "matches": 3,
+      "win501Pct": 66.67,
+      "cricketWinPct": 66.67,
+      "ppd": 18.24,
+      "mpr": 1.99,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -587,13 +587,13 @@
       "name": "Guy",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 2,
+      "matches": 3,
       "win501Pct": 100.0,
-      "cricketWinPct": 0.0,
-      "ppd": 21.33,
-      "mpr": 2.03,
+      "cricketWinPct": 33.33,
+      "ppd": 20.18,
+      "mpr": 2.06,
       "highTons": 0,
-      "hatTricks": 2,
+      "hatTricks": 4,
       "whiteHorses": 0
     },
     {
@@ -637,13 +637,13 @@
     },
     {
       "name": "Jim",
-      "type": "Sub",
-      "rosterTeam": "Multiple / Sub",
-      "matches": 1,
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 1",
+      "matches": 2,
       "win501Pct": 100.0,
-      "cricketWinPct": 0.0,
-      "ppd": 17.89,
-      "mpr": 1.2,
+      "cricketWinPct": 50.0,
+      "ppd": 16.54,
+      "mpr": 1.58,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -678,11 +678,11 @@
       "name": "Patty",
       "type": "Roster",
       "rosterTeam": "Uncle J's",
-      "matches": 2,
+      "matches": 3,
       "win501Pct": 0.0,
       "cricketWinPct": 0.0,
-      "ppd": 12.41,
-      "mpr": 1.25,
+      "ppd": 13.65,
+      "mpr": 1.37,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -691,11 +691,11 @@
       "name": "Darren",
       "type": "Roster",
       "rosterTeam": "Uncle J's",
-      "matches": 2,
+      "matches": 3,
       "win501Pct": 0.0,
       "cricketWinPct": 0.0,
-      "ppd": 15.79,
-      "mpr": 1.64,
+      "ppd": 16.41,
+      "mpr": 1.66,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -704,11 +704,11 @@
       "name": "Jeff",
       "type": "Sub",
       "rosterTeam": "Multiple / Sub",
-      "matches": 2,
-      "win501Pct": 50.0,
-      "cricketWinPct": 100.0,
-      "ppd": 17.72,
-      "mpr": 2.45,
+      "matches": 3,
+      "win501Pct": 33.33,
+      "cricketWinPct": 66.67,
+      "ppd": 19.48,
+      "mpr": 2.26,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -717,19 +717,19 @@
       "name": "Denise",
       "type": "Sub",
       "rosterTeam": "Multiple / Sub",
-      "matches": 2,
-      "win501Pct": 50.0,
+      "matches": 3,
+      "win501Pct": 33.33,
       "cricketWinPct": 0.0,
-      "ppd": 10.88,
-      "mpr": 1.06,
+      "ppd": 12.46,
+      "mpr": 1.01,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
     },
     {
       "name": "Jon",
-      "type": "Sub",
-      "rosterTeam": "Multiple / Sub",
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 1",
       "matches": 1,
       "win501Pct": 0.0,
       "cricketWinPct": 100.0,
@@ -751,27 +751,40 @@
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
+    },
+    {
+      "name": "Mike S",
+      "type": "Sub",
+      "rosterTeam": "Multiple / Sub",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 0.0,
+      "ppd": 28.36,
+      "mpr": 2.73,
+      "highTons": 0,
+      "hatTricks": 1,
+      "whiteHorses": 0
     }
   ],
   "weeklyLeaders": {
     "PPD": [
       {
         "place": 1,
-        "name": "Gill",
-        "team": "Elks",
-        "score": 33.4
+        "name": "Mike S",
+        "team": "Hi-Way Bowl 1",
+        "score": 28.36
       },
       {
-        "place": 1,
-        "name": "Nick",
-        "team": "Hi-Way Bowl 2",
-        "score": 33.4
+        "place": 2,
+        "name": "Gill",
+        "team": "Elks",
+        "score": 25.05
       },
       {
         "place": 3,
-        "name": "Sam",
-        "team": "Elks",
-        "score": 27.83
+        "name": "Jeff",
+        "team": "Uncle J's",
+        "score": 23.0
       }
     ],
     "MPR": [
@@ -779,66 +792,50 @@
         "place": 1,
         "name": "Gill",
         "team": "Elks",
-        "score": 3.86
+        "score": 4.11
       },
       {
         "place": 2,
         "name": "Sam",
         "team": "Elks",
-        "score": 2.56
+        "score": 3.0
       },
       {
         "place": 3,
-        "name": "Jeff",
-        "team": "Uncle J's",
-        "score": 2.47
+        "name": "Nate",
+        "team": "Pop-A-Top",
+        "score": 2.83
       }
     ],
     "Hat Tricks": [
       {
         "place": 1,
-        "name": "Nick",
-        "team": "Hi-Way Bowl 2",
+        "name": "Guy",
+        "team": "Elks",
         "score": 2
       },
       {
         "place": 2,
-        "name": "Bill",
+        "name": "Mike S",
         "team": "Hi-Way Bowl 1",
-        "score": 1
-      },
-      {
-        "place": 2,
-        "name": "Brian",
-        "team": "Hi-Way Bowl 1",
-        "score": 1
-      },
-      {
-        "place": 2,
-        "name": "Gill",
-        "team": "Elks",
-        "score": 1
-      },
-      {
-        "place": 2,
-        "name": "Jeff",
-        "team": "Uncle J's",
-        "score": 1
-      },
-      {
-        "place": 2,
-        "name": "Mike",
-        "team": "Hi-Way Bowl 2",
-        "score": 1
-      },
-      {
-        "place": 2,
-        "name": "Nate",
-        "team": "Pop-A-Top",
         "score": 1
       }
     ],
-    "High Tons": [],
-    "White Horses": []
+    "High Tons": [
+      {
+        "place": 1,
+        "name": "Sam",
+        "team": "Elks",
+        "score": 1
+      }
+    ],
+    "White Horses": [
+      {
+        "place": 1,
+        "name": "Gill",
+        "team": "Elks",
+        "score": 1
+      }
+    ]
   }
 }
