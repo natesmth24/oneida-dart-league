@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T12:54:16.631097+00:00",
+  "updatedAt": "2026-10-22T13:21:11.573397+00:00",
   "latestWeek": 3,
   "standings": [
     {
@@ -9,6 +9,22 @@
       "matchWins": 3,
       "matchLosses": 0,
       "seed": 1
+    },
+    {
+      "team": "Hi-Way Bowl 1",
+      "gameWins": 35,
+      "gameLosses": 22,
+      "matchWins": 3,
+      "matchLosses": 0,
+      "seed": 2
+    },
+    {
+      "team": "Pop-A-Top",
+      "gameWins": 35,
+      "gameLosses": 22,
+      "matchWins": 2,
+      "matchLosses": 1,
+      "seed": 3
     },
     {
       "team": "Hi-Way Bowl 2",
@@ -33,22 +49,6 @@
       "matchWins": 0,
       "matchLosses": 3,
       "seed": 6
-    },
-    {
-      "team": "Hi-Way Bowl 1",
-      "gameWins": 35,
-      "gameLosses": 22,
-      "matchWins": 3,
-      "matchLosses": 0,
-      "seed": 0
-    },
-    {
-      "team": "Pop-A-Top",
-      "gameWins": 35,
-      "gameLosses": 22,
-      "matchWins": 2,
-      "matchLosses": 1,
-      "seed": 0
     }
   ],
   "schedule": [
