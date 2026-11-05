@@ -1,53 +1,53 @@
 {
-  "updatedAt": "2026-10-29T13:08:54.810238+00:00",
-  "latestWeek": 4,
+  "updatedAt": "2026-11-05T13:53:23.142858+00:00",
+  "latestWeek": 5,
   "standings": [
     {
       "team": "Elks",
-      "gameWins": 72,
-      "gameLosses": 4,
-      "matchWins": 4,
+      "gameWins": 90,
+      "gameLosses": 5,
+      "matchWins": 5,
       "matchLosses": 0,
       "seed": 1
     },
     {
-      "team": "Hi-Way Bowl 1",
-      "gameWins": 41,
-      "gameLosses": 35,
+      "team": "Pop-A-Top",
+      "gameWins": 45,
+      "gameLosses": 50,
       "matchWins": 3,
-      "matchLosses": 1,
+      "matchLosses": 2,
       "seed": 2
     },
     {
-      "team": "Pop-A-Top",
-      "gameWins": 35,
-      "gameLosses": 41,
-      "matchWins": 2,
-      "matchLosses": 2,
+      "team": "Hi-Way Bowl 2",
+      "gameWins": 44,
+      "gameLosses": 51,
+      "matchWins": 1,
+      "matchLosses": 4,
       "seed": 3
     },
     {
-      "team": "Hi-Way Bowl 2",
-      "gameWins": 35,
-      "gameLosses": 41,
-      "matchWins": 1,
-      "matchLosses": 3,
+      "team": "Hi-Way Bowl 1",
+      "gameWins": 42,
+      "gameLosses": 53,
+      "matchWins": 3,
+      "matchLosses": 2,
       "seed": 4
     },
     {
       "team": "Hotey",
-      "gameWins": 28,
-      "gameLosses": 48,
-      "matchWins": 2,
+      "gameWins": 38,
+      "gameLosses": 57,
+      "matchWins": 3,
       "matchLosses": 2,
       "seed": 5
     },
     {
       "team": "Uncle J's",
-      "gameWins": 17,
-      "gameLosses": 59,
+      "gameWins": 26,
+      "gameLosses": 69,
       "matchWins": 0,
-      "matchLosses": 4,
+      "matchLosses": 5,
       "seed": 6
     }
   ],
@@ -152,25 +152,25 @@
       "week": 5,
       "home": "Hi-Way Bowl 1",
       "away": "Elks",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
+      "homeWins": 1,
+      "awayWins": 18,
+      "complete": true
     },
     {
       "week": 5,
       "home": "Hi-Way Bowl 2",
       "away": "Pop-A-Top",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
+      "homeWins": 9,
+      "awayWins": 10,
+      "complete": true
     },
     {
       "week": 5,
       "home": "Uncle J's",
       "away": "Hotey",
-      "homeWins": 0,
-      "awayWins": 0,
-      "complete": false
+      "homeWins": 9,
+      "awayWins": 10,
+      "complete": true
     },
     {
       "week": 6,
@@ -431,11 +431,11 @@
       "name": "Dean",
       "type": "Roster",
       "rosterTeam": "Pop-A-Top",
-      "matches": 4,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 13.27,
-      "mpr": 1.99,
+      "matches": 5,
+      "win501Pct": 40.0,
+      "cricketWinPct": 60.0,
+      "ppd": 13.32,
+      "mpr": 1.91,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -444,11 +444,11 @@
       "name": "Justin",
       "type": "Roster",
       "rosterTeam": "Pop-A-Top",
-      "matches": 4,
-      "win501Pct": 25.0,
-      "cricketWinPct": 25.0,
-      "ppd": 12.1,
-      "mpr": 1.82,
+      "matches": 5,
+      "win501Pct": 20.0,
+      "cricketWinPct": 20.0,
+      "ppd": 12.14,
+      "mpr": 1.71,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -457,10 +457,10 @@
       "name": "Todd",
       "type": "Roster",
       "rosterTeam": "Pop-A-Top",
-      "matches": 3,
-      "win501Pct": 66.67,
+      "matches": 4,
+      "win501Pct": 75.0,
       "cricketWinPct": 100.0,
-      "ppd": 15.35,
+      "ppd": 14.99,
       "mpr": 2.09,
       "highTons": 0,
       "hatTricks": 0,
@@ -470,11 +470,11 @@
       "name": "Nick",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 2",
-      "matches": 4,
-      "win501Pct": 50.0,
-      "cricketWinPct": 75.0,
-      "ppd": 19.99,
-      "mpr": 1.75,
+      "matches": 5,
+      "win501Pct": 60.0,
+      "cricketWinPct": 60.0,
+      "ppd": 19.57,
+      "mpr": 1.78,
       "highTons": 0,
       "hatTricks": 3,
       "whiteHorses": 0
@@ -483,11 +483,11 @@
       "name": "Mike",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 2",
-      "matches": 4,
-      "win501Pct": 0.0,
-      "cricketWinPct": 50.0,
-      "ppd": 15.32,
-      "mpr": 1.32,
+      "matches": 5,
+      "win501Pct": 20.0,
+      "cricketWinPct": 60.0,
+      "ppd": 14.97,
+      "mpr": 1.48,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -496,24 +496,24 @@
       "name": "Judy",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 1",
-      "matches": 4,
-      "win501Pct": 25.0,
-      "cricketWinPct": 75.0,
-      "ppd": 16.92,
-      "mpr": 1.78,
+      "matches": 5,
+      "win501Pct": 20.0,
+      "cricketWinPct": 60.0,
+      "ppd": 16.39,
+      "mpr": 1.81,
       "highTons": 0,
-      "hatTricks": 0,
+      "hatTricks": 1,
       "whiteHorses": 0
     },
     {
       "name": "Brian",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 1",
-      "matches": 3,
-      "win501Pct": 66.67,
+      "matches": 4,
+      "win501Pct": 50.0,
       "cricketWinPct": 0.0,
-      "ppd": 17.8,
-      "mpr": 1.35,
+      "ppd": 18.41,
+      "mpr": 1.59,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -522,11 +522,11 @@
       "name": "Bill",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 1",
-      "matches": 3,
-      "win501Pct": 66.67,
-      "cricketWinPct": 33.33,
-      "ppd": 17.52,
-      "mpr": 1.79,
+      "matches": 4,
+      "win501Pct": 50.0,
+      "cricketWinPct": 25.0,
+      "ppd": 18.02,
+      "mpr": 1.94,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -535,38 +535,38 @@
       "name": "Sam",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 4,
+      "matches": 5,
       "win501Pct": 100.0,
       "cricketWinPct": 100.0,
-      "ppd": 23.48,
-      "mpr": 3.06,
+      "ppd": 25.94,
+      "mpr": 3.11,
       "highTons": 1,
-      "hatTricks": 1,
+      "hatTricks": 2,
       "whiteHorses": 0
     },
     {
       "name": "Gill",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 4,
+      "matches": 5,
       "win501Pct": 100.0,
       "cricketWinPct": 100.0,
-      "ppd": 33.37,
-      "mpr": 4.43,
+      "ppd": 32.96,
+      "mpr": 4.24,
       "highTons": 0,
-      "hatTricks": 7,
-      "whiteHorses": 1
+      "hatTricks": 11,
+      "whiteHorses": 2
     },
     {
       "name": "Buzzy",
       "type": "Roster",
       "rosterTeam": "Hotey",
-      "matches": 4,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 18.27,
-      "mpr": 1.74,
-      "highTons": 0,
+      "matches": 5,
+      "win501Pct": 60.0,
+      "cricketWinPct": 60.0,
+      "ppd": 19.63,
+      "mpr": 1.75,
+      "highTons": 1,
       "hatTricks": 1,
       "whiteHorses": 0
     },
@@ -574,11 +574,11 @@
       "name": "Aiden",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 4,
-      "win501Pct": 75.0,
-      "cricketWinPct": 75.0,
-      "ppd": 18.0,
-      "mpr": 1.96,
+      "matches": 5,
+      "win501Pct": 80.0,
+      "cricketWinPct": 80.0,
+      "ppd": 17.35,
+      "mpr": 1.93,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -587,24 +587,24 @@
       "name": "Guy",
       "type": "Roster",
       "rosterTeam": "Elks",
-      "matches": 4,
+      "matches": 5,
       "win501Pct": 100.0,
-      "cricketWinPct": 50.0,
-      "ppd": 21.1,
-      "mpr": 2.19,
+      "cricketWinPct": 60.0,
+      "ppd": 20.22,
+      "mpr": 2.29,
       "highTons": 0,
-      "hatTricks": 4,
+      "hatTricks": 6,
       "whiteHorses": 0
     },
     {
       "name": "Bryan",
       "type": "Roster",
       "rosterTeam": "Hotey",
-      "matches": 2,
-      "win501Pct": 50.0,
-      "cricketWinPct": 100.0,
-      "ppd": 17.66,
-      "mpr": 2.56,
+      "matches": 3,
+      "win501Pct": 66.67,
+      "cricketWinPct": 66.67,
+      "ppd": 16.06,
+      "mpr": 2.38,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -613,11 +613,11 @@
       "name": "Tim",
       "type": "Roster",
       "rosterTeam": "Hotey",
-      "matches": 4,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 18.51,
-      "mpr": 1.62,
+      "matches": 5,
+      "win501Pct": 60.0,
+      "cricketWinPct": 40.0,
+      "ppd": 19.36,
+      "mpr": 1.5,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -626,11 +626,11 @@
       "name": "Ollie",
       "type": "Roster",
       "rosterTeam": "Hotey",
-      "matches": 4,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 16.63,
-      "mpr": 1.69,
+      "matches": 5,
+      "win501Pct": 40.0,
+      "cricketWinPct": 60.0,
+      "ppd": 16.06,
+      "mpr": 1.76,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -639,11 +639,11 @@
       "name": "Jim",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 1",
-      "matches": 3,
-      "win501Pct": 66.67,
-      "cricketWinPct": 33.33,
-      "ppd": 16.62,
-      "mpr": 1.42,
+      "matches": 4,
+      "win501Pct": 50.0,
+      "cricketWinPct": 25.0,
+      "ppd": 16.37,
+      "mpr": 1.4,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -652,24 +652,24 @@
       "name": "Chris",
       "type": "Roster",
       "rosterTeam": "Hi-Way Bowl 2",
-      "matches": 4,
-      "win501Pct": 50.0,
-      "cricketWinPct": 50.0,
-      "ppd": 17.39,
-      "mpr": 1.56,
+      "matches": 5,
+      "win501Pct": 40.0,
+      "cricketWinPct": 60.0,
+      "ppd": 16.46,
+      "mpr": 1.53,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
     },
     {
       "name": "Mary",
-      "type": "Sub",
-      "rosterTeam": "Multiple / Sub",
-      "matches": 4,
-      "win501Pct": 25.0,
-      "cricketWinPct": 25.0,
-      "ppd": 12.86,
-      "mpr": 1.22,
+      "type": "Roster",
+      "rosterTeam": "Hi-Way Bowl 2",
+      "matches": 5,
+      "win501Pct": 20.0,
+      "cricketWinPct": 20.0,
+      "ppd": 13.05,
+      "mpr": 1.15,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -678,11 +678,11 @@
       "name": "Patty",
       "type": "Roster",
       "rosterTeam": "Uncle J's",
-      "matches": 4,
+      "matches": 5,
       "win501Pct": 0.0,
-      "cricketWinPct": 0.0,
-      "ppd": 13.65,
-      "mpr": 1.36,
+      "cricketWinPct": 20.0,
+      "ppd": 13.51,
+      "mpr": 1.51,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -691,11 +691,11 @@
       "name": "Darren",
       "type": "Roster",
       "rosterTeam": "Uncle J's",
-      "matches": 4,
+      "matches": 5,
       "win501Pct": 0.0,
-      "cricketWinPct": 25.0,
-      "ppd": 15.67,
-      "mpr": 1.57,
+      "cricketWinPct": 20.0,
+      "ppd": 15.66,
+      "mpr": 1.61,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -704,11 +704,11 @@
       "name": "Jeff",
       "type": "Roster",
       "rosterTeam": "Uncle J's",
-      "matches": 4,
-      "win501Pct": 50.0,
-      "cricketWinPct": 75.0,
-      "ppd": 18.65,
-      "mpr": 2.21,
+      "matches": 5,
+      "win501Pct": 60.0,
+      "cricketWinPct": 80.0,
+      "ppd": 18.26,
+      "mpr": 2.23,
       "highTons": 0,
       "hatTricks": 1,
       "whiteHorses": 0
@@ -717,11 +717,11 @@
       "name": "Denise",
       "type": "Roster",
       "rosterTeam": "Uncle J's",
-      "matches": 4,
-      "win501Pct": 25.0,
+      "matches": 5,
+      "win501Pct": 20.0,
       "cricketWinPct": 0.0,
-      "ppd": 12.39,
-      "mpr": 1.04,
+      "ppd": 12.09,
+      "mpr": 1.06,
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
@@ -777,26 +777,39 @@
       "highTons": 0,
       "hatTricks": 0,
       "whiteHorses": 0
+    },
+    {
+      "name": "Rob",
+      "type": "Sub",
+      "rosterTeam": "Multiple / Sub",
+      "matches": 1,
+      "win501Pct": 100.0,
+      "cricketWinPct": 0.0,
+      "ppd": 12.85,
+      "mpr": 1.9,
+      "highTons": 0,
+      "hatTricks": 0,
+      "whiteHorses": 0
     }
   ],
   "weeklyLeaders": {
     "PPD": [
       {
         "place": 1,
-        "name": "Gill",
-        "team": "Elks",
-        "score": 45.55
-      },
-      {
-        "place": 2,
-        "name": "Buzzy",
-        "team": "Hotey",
-        "score": 25.05
-      },
-      {
-        "place": 2,
         "name": "Sam",
         "team": "Elks",
+        "score": 35.79
+      },
+      {
+        "place": 2,
+        "name": "Gill",
+        "team": "Elks",
+        "score": 31.31
+      },
+      {
+        "place": 3,
+        "name": "Buzzy",
+        "team": "Hotey",
         "score": 25.05
       }
     ],
@@ -805,19 +818,19 @@
         "place": 1,
         "name": "Gill",
         "team": "Elks",
-        "score": 5.5
+        "score": 3.5
       },
       {
         "place": 2,
         "name": "Sam",
         "team": "Elks",
-        "score": 3.81
+        "score": 3.29
       },
       {
         "place": 3,
-        "name": "Bryan",
-        "team": "Hotey",
-        "score": 3.0
+        "name": "Guy",
+        "team": "Elks",
+        "score": 2.7
       }
     ],
     "Hat Tricks": [
@@ -825,24 +838,18 @@
         "place": 1,
         "name": "Gill",
         "team": "Elks",
-        "score": 6
+        "score": 4
       },
       {
         "place": 2,
-        "name": "Nate",
-        "team": "Pop-A-Top",
-        "score": 3
+        "name": "Guy",
+        "team": "Elks",
+        "score": 2
       },
       {
         "place": 3,
-        "name": "Mary",
-        "team": "Hi-Way Bowl 2",
-        "score": 1
-      },
-      {
-        "place": 3,
-        "name": "Nick",
-        "team": "Hi-Way Bowl 2",
+        "name": "Judy",
+        "team": "Hi-Way Bowl 1",
         "score": 1
       },
       {
@@ -852,7 +859,21 @@
         "score": 1
       }
     ],
-    "High Tons": [],
-    "White Horses": []
+    "High Tons": [
+      {
+        "place": 1,
+        "name": "Buzzy",
+        "team": "Hotey",
+        "score": 1
+      }
+    ],
+    "White Horses": [
+      {
+        "place": 1,
+        "name": "Gill",
+        "team": "Elks",
+        "score": 1
+      }
+    ]
   }
 }
