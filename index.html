@@ -95,36 +95,54 @@
 <footer><strong>Oneida Dart League</strong><span>Oneida, New York</span><span>© 2026 Oneida Dart League</span></footer>
 <script src="data.js"></script><script src="app.js"></script>
 <script>
+
 (function () {
+    // Official 2026-2027 dart league schedule
+    const matchDates = [
+        "2026-10-07",
+        "2026-10-14",
+        "2026-10-21",
+        "2026-10-28",
+        "2026-11-04",
+        "2026-11-11",
+        "2026-11-18",
+        "2026-12-02",
+        "2026-12-09",
+        "2026-12-16",
+        "2026-12-30",
+        "2027-01-06",
+        "2027-01-13",
+        "2027-01-20",
+        "2027-01-27"
+    ];
+
     function updateNextMatch() {
         const now = new Date();
+        const display = document.getElementById("next-match-date");
 
-        // Find the next Wednesday.
-        let daysUntil = (3 - now.getDay() + 7) % 7;
+        if (!display) return;
 
-        // After 7 PM Wednesday, show the following Wednesday.
-        if (daysUntil === 0 && now.getHours() >= 19) {
-            daysUntil = 7;
+        const nextDate = matchDates
+            .map(date => new Date(date + "T19:00:00"))
+            .find(date => date > now);
+
+        if (!nextDate) {
+            display.textContent = "Regular season complete";
+            return;
         }
 
-        const matchDate = new Date(now);
-        matchDate.setDate(now.getDate() + daysUntil);
-
-        const formattedDate = matchDate.toLocaleDateString("en-US", {
+        const formattedDate = nextDate.toLocaleDateString("en-US", {
             weekday: "long",
             month: "long",
             day: "numeric"
         });
 
-        const display = document.getElementById("next-match-date");
-
-        if (display) {
-            display.textContent = formattedDate + " • 7:00 PM";
-        }
+        display.textContent = formattedDate + " • 7:00 PM";
     }
 
     updateNextMatch();
 })();
+
 </script>
 </body>
 </html>
